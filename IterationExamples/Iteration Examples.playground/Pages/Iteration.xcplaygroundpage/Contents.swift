@@ -12,12 +12,12 @@ for i in stride(from: 0, through: 360, by: 1) {
     
     i
     
-    canvas.lineColor = Color (hue: i, saturation: 80, brightness: 88, alpha: 100)
+    canvas.lineColor = Color (hue: i, saturation: 100, brightness: 88, alpha: 100)
     
     // Draw each rung
     canvas.drawLine(fromX: i, fromY: 0, toX: i, toY: 100)
     
-    canvas
+    
     
 }
 //: **NOTE:** Output will show up in the Debug area.
