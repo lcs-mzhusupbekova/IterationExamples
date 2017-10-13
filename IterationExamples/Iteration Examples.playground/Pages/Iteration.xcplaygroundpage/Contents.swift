@@ -10,7 +10,7 @@ let canvas = Canvas(width: 300, height: 400)
 // Draw the "rungs" of a ladder
 for i in stride(from: 0, through: 360, by: 1) {
     
-    i
+    
     
     canvas.lineColor = Color (hue: i, saturation: 100, brightness: 88, alpha: 100)
     
